@@ -20,11 +20,7 @@ const argv = require('yargs')
         completado
     })
     .command('borrar', 'borra una tarea', {
-        descripcion: {
-            demand: true,
-            alias: 'd',
-            desc: 'descripcion de la tarea por hacer'
-        }
+        descripcion
     })
 
 .help()
